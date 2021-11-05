@@ -22,8 +22,6 @@ class App extends React.Component {
           <Header />
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route path="/about" element={<Header />} />
-            <Route path="/learn" element={<Footer />} />
           </Routes>
           <Footer />
         </Router>
