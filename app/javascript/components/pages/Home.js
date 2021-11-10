@@ -4,7 +4,9 @@ class Home extends Component {
     render() {
         return (
           <>
-            <h3>This is the Home Page</h3>
+          <div id="home-container">
+            <h3>Welcome to Native!</h3>
+         </div>
           </>
         );
     }

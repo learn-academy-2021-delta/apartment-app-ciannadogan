@@ -18,13 +18,9 @@ class Header extends Component {
     return (
       <header>
         <NavLink to="/">
-          <h1>Logo</h1>
-          <h4>Home</h4>
+          <h3>Logo</h3>
         </NavLink>
         <div className="nav-links">
-            {/* <ul>
-            <li>Apartment Index</li>
-          </ul> */}
           {!logged_in && 
             <>
               <ul>
@@ -48,4 +44,4 @@ class Header extends Component {
     );
   }
 }
-export default Header;
+export default Header
