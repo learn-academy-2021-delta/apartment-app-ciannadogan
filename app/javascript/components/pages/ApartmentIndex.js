@@ -4,23 +4,21 @@ import { NavLink } from 'react-router-dom'
 
 class ApartmentIndex extends Component {
   render() {
-    console.log(this.props.appts);
+    console.log(this.props.apartments);
     return (
         <>
         <div className="body-container">
-           <div className="index-body">
              <h3>Available Listings</h3>
-            {this.props.appts && this.props.appts.map(appt => {
+            {this.props.apartments && this.props.apartments.map(apartment => {
             return ( 
-                <p key={appt.id}>
-                  <NavLink to={`/showlisting/${appt.id}`}>
-                    {appt.street}
+                <p key={apartment.id}>
+                  <NavLink to={`/listings/${apartment.id}`}>
+                    {apartment.street}
                   </NavLink>
                 </p>
              )
             })}
           </div>
-        </div>
         </>
     )
   }

@@ -29,7 +29,10 @@ class App extends Component {
           <Header {...this.props}/>
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route path="/listings"  element={<ApartmentIndex appts={apartments} /> } />
+            <Route path="/listings"  element={<ApartmentIndex apartments={apartments} /> } />
+            <Route 
+          path="/listings" 
+          element={<ApartmentIndex apartments={apartments} />} />
           </Routes>
           <Footer />
         </Router>

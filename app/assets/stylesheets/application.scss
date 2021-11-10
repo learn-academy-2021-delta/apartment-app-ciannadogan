@@ -4,6 +4,7 @@
     url("Aller_Bd.woff") format("woff"),
     url("Aller_Bd.ttf") format("truetype"),
     url("Aller_Bd.svg#Aller-Bold") format("svg");font-weight:normal;font-style:normal;}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
 
 *{
     background-color: rgb(42, 42, 42);
@@ -16,7 +17,7 @@
     justify-content: space-around;
 }
 
-#logo{
+.logo{
     padding-top: 10px;
     padding-left: 10px;
     height: 100px;
@@ -24,7 +25,7 @@
     right: 1rem;
 }
 
-#home-container{
+.home-container{
     text-align: center;
     height: 85vh;
     width: 88vw;
@@ -39,7 +40,7 @@ a{
 }
 a:hover {
     cursor: pointer !important;
-    color: #ff23c1 !important;
+    color: #14f30c !important;
     text-decoration: none !important;
   }
   .body-container{

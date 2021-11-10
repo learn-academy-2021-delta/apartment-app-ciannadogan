@@ -51,7 +51,7 @@ apartments = [
 
 first_user = User.first
 
-apartments.each do |attributes|
-    first_user.apartments.create attributes
-    p "creating apartments #{attributes}"
+apartments.each do |attribute|
+    first_user.apartments.create attribute
 end
+
